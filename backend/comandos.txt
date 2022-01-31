@@ -1,0 +1,32 @@
+sudo netstat -ltnp
+kill -9
+
+/**
+ *  Rota / Recurso
+ */
+
+/**
+ * Métodos http:
+ * 
+ * Get: buscar uma informação do Back-end
+ * Post: Criar uma informação no Back-end
+ * Put: Alterar uma informação no Back-end
+ * Delete: Deletar uma informação no Back-end
+ *//**
+Tipos de parâmetros
+
+Query Params: Parametros nomeados enviados na rota após o sinbolo de "?" (filtros, Paginação)
+Route Params: Parametros utilizados para identificar recursos 
+Request Body: Corpo da requisição, utilizado para criar ou alterar recursos
+*/
+
+/**
+ * SQL: MySQL, SQLite, PostgreSQ, Oracle, Microsoft SQL Server
+ * NoSQL: MongoDB, CouchDB, etc
+ */
+
+/**
+ * Driver: Select * FROM users
+ * Query Builder: table('users').select('*').where()
+ * 
+ */
